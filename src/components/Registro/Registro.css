@@ -1,0 +1,39 @@
+.registro-form{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: self-end; 
+	height: 105%;
+	width: 70%;
+}
+
+.registro-login {
+	display: grid;
+	grid-template-columns: 1.3fr 1fr;
+	grid-auto-columns: 1fr;
+	grid-auto-rows: 1fr;
+	height: 100%;
+	width: 100%;
+	
+}
+
+.registro-logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 65%;
+}
+
+img{
+	height: 90%;
+	width: 90%;
+	margin-top: 40px ; /*mueve hacia la abajo*/
+	margin-left: 70px ; /*mueve hacia la derecha*/
+}
+.titulo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 10%;
+}
